@@ -16,3 +16,20 @@ In summary, this CAPTCHA system generates a CAPTCHA image and value, stores the 
 3. Create the following files: captcha.go, main.go, and go.mod. Copy the code provided in the respective files.
 4. Replace "github.com/your_username/captcha" in the main.go file with your actual GitHub username and repository name.
 5. Run the following command to initialize your Go module:
+- bash:
+```bash
+go mod init github.com/your_username/captcha
+```  
+6. Install any necessary packages or libraries required for generating CAPTCHA images and interacting with your chosen storage mechanism. Refer to the documentation of the specific libraries you're using to determine the installation steps.
+7. Build and run the program using the following command:
+- go:
+```bash
+go run main.go
+```
+8. The server will start running, and you should see a message like: "Server listening on port 8080..."
+9. Open your web browser and navigate to http://localhost:8080 to access the CAPTCHA page.
+10. You should see a CAPTCHA image and an input field. Enter the CAPTCHA value displayed in the image and click the "Verify" button.
+11. If the CAPTCHA value is verified successfully, you will see a message indicating the successful verification.
+---
+You can now test the CAPTCHA system by refreshing the page to generate a new CAPTCHA and verifying it again.
+Please note that this is a basic example, and you may need to modify and extend the code to fit your specific requirements, such as adding proper error handling, implementing the storage mechanism, and integrating a CAPTCHA image generation library.
