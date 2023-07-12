@@ -1,1 +1,1 @@
-module github.com/your_username/captcha
+module github.com/albrazodiac/captcha
