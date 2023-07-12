@@ -18,7 +18,7 @@ In summary, this CAPTCHA system generates a CAPTCHA image and value, stores the 
 5. Run the following command to initialize your Go module:
 - bash:
 ```bash
-$ go mod init github.com/your_username/captcha
+$ go mod init github.com/albrazodiac/captcha
 ```  
 6. Install any necessary packages or libraries required for generating CAPTCHA images and interacting with your chosen storage mechanism. Refer to the documentation of the specific libraries you're using to determine the installation steps.
 7. Build and run the program using the following command:
