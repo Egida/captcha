@@ -14,7 +14,7 @@ In summary, this CAPTCHA system generates a CAPTCHA image and value, stores the 
 1. Set up your Go environment by installing Go from the official website and configuring your workspace.
 2. Create a directory for your project and navigate to it using the terminal or command prompt.
 3. Create the following files: captcha.go, main.go, and go.mod. Copy the code provided in the respective files.
-4. Replace "github.com/your_username/captcha" in the main.go file with your actual GitHub username and repository name.
+4. Replace "github.com/albrazodiac/captcha" in the main.go file with your actual GitHub username and repository name.
 5. Run the following command to initialize your Go module:
 - bash:
 ```bash
