@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/your_username/captcha"
+	"github.com/albrazodiac/captcha"
 )
 
 func main() {
